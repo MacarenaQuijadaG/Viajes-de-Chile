@@ -19,7 +19,7 @@
 </head>
 <body>
     <!--NAVBAR-->
-    <nav>
+    <nav id="section1">
           <nav data-bs-theme="dark" class="navbar navbar-expand-lg navbar-light fixed-top px-5">
             <div class="container">
                 <img src="./assets/img/viajes.svg" alt="Logo viajes de chile" class="logo"> Viajes Chile </img>
@@ -40,34 +40,35 @@
         </nav>
 
         <!--CARUSEL -->
-
-        <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="Imagen de Guanaco">
+        <section id="section2">
+          <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="Imagen de Guanaco">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="Imagene de Moais">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="Imagene de Pinguino">
+                </div>
               </div>
-              <div class="carousel-item">
-                <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="Imagene de Moais">
-              </div>
-              <div class="carousel-item">
-                <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="Imagene de Pinguino">
-              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+        </section>
 
           <!--SESSION QUIENES SOMOS-->
 
-          <section class="container-fluid">
+          <section id="section3"class="container-fluid">
                 <div class="container d-none d-sm-block">
-                    <h3 class="text-center">¿QUIENES SOMOS?</h3>
+                    <h3 class="text-center" href="#section2">¿QUIENES SOMOS?</h3>
                     <hr>
                     <div class="row"> 
                         <div class="col-12 col-md-4">
@@ -94,9 +95,9 @@
 
           <!--CARDS-->
 
-          <section>
+          <section id="section4">
             <div class="container mt-4">
-                <h3 class="text-center">DESTACADOS</h3>
+                <h3 class="text-center" src="#section3">DESTACADOS</h3>
                 <hr>
                 <div class="row justify-content-center ">
                     <!-- CARD 1 -->
@@ -145,9 +146,9 @@
 
           <!-- CONTACTO-->
 
-          <section>
+          <section id="section5">
             <div class="container">
-              <h3 class="text-center ">CONTACTO</h3> 
+              <h3 class="text-center" href="#section4">CONTACTO</h3> 
               <hr>
               <div class="row">
                 <form>
@@ -178,7 +179,7 @@
 
           <!-- FOOTER -->
 
-          <footer>
+          <footer id="section6">
             <div class="container-fluid d-sm-block bg-primary">
               <div class="container">
                 <div class="row">
