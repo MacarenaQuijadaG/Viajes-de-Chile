@@ -33,9 +33,6 @@ Instrucciones y ejemplos para ejecutar el conjunto de pruebas.
 - [Html](https://developer.mozilla.org/en-US/docs/Web/HTML) 
 - [Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/) 
 
-## Autores ✒️
-
-- **Macarena Quijada G** - _Trabajo inicial_ - [Macarena Quijada G](https://github.com/MacarenaQuijadaG)
 
 ---
 
