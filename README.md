@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Diseño de una pagina que contiene por section navbar, carrusel, cards, formulario y footler que esta conectado con bootstrap
+Diseño de una pagina de viajes que contiene secciones donde el usuario puede navegar entre destinos.
 
 
 ## Visuales 
